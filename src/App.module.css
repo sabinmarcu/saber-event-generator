@@ -1,0 +1,42 @@
+.card {
+  min-width: 400px;
+  max-width: 1000px;
+  min-height: 200px;
+  max-height: 500px;
+  width: 70vw;
+  height: 60vh;
+}
+
+.container {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.container > * {
+  flex: 1;
+}
+
+.container > *:first-child {
+  margin-right: 5px;
+}
+.container > *:last-child {
+  margin-left: 5px;
+}
+
+.input {
+  margin: 5px 0 !important;
+}
+
+.dateField {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.dateField .input {
+  flex: 1;
+  display: flex;
+}
+
+.dateField .input > * {
+  flex: 1;
+}
